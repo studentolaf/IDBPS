@@ -1,15 +1,15 @@
 # IDBPS
 
-#gd repo clone studentolaf/IDBPS
+gd repo clone studentolaf/IDBPS
 
-#cd IDBPS/react/v6\ \(working\)/
+cd IDBPS/react/v6\ \(working\)/
 
-#minikube start
+minikube start
 
-#kubectl create namespace spine
+kubectl create namespace spine
 
-#kubectl apply -f ./ -n spine
+kubectl apply -f ./ -n spine
 
-#minekube service list
+minekube service list
 
-#minikube dashboard
+minikube dashboard
