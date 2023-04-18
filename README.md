@@ -1,4 +1,4 @@
-#IDBPS Kubernetes Environment Setup Guide
+# IDBPS Kubernetes Environment Setup Guide
 This guide is designed to help you set up the IDBPS Kubernetes environment and start up the servers. The IDBPS (Intelligent Distributed Business Processing System) is a platform for processing business transactions using a distributed architecture.
 
 Installation
