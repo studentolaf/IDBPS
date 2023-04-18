@@ -17,7 +17,7 @@ sudo apt install docker-ce \
 (Make you don’t have to use sudo) \
 Sudo usermod -aG docker (username) && newgrp docker \
 Sudo apt update \
-Reboot \
+Reboot 
 
 1.2	Install minikube: \
 wget https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 \
