@@ -25,34 +25,34 @@ chmod +x minikube-linux-amd64 \
 sudo mv minikube-linux-amd64 /usr/local/bin/minikube \
 (Install docker cli  for Kubernetes) \
 minikube docker-env \
-minikube version \
+minikube version 
 
 1.3	Install kubectl \
 curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl \
 chmod +x ./kubectl \
 sudo mv ./kubectl /usr/local/bin/kubectl \
 kubectl version -o json  --client \
-Sudo apt update \
+Sudo apt update 
 
 2.1 Installation \
 Clone the IDBPS repository by running the following command: \
-git clone https://github.com/studentolaf/IDBPS.git \
+git clone https://github.com/studentolaf/IDBPS.git 
 
 
 2.2 Navigate to the React application directory by running the following command: \
-cd IDBPS/react/v6\ \(working\)/ \
+cd IDBPS/react/v6\ \(working\)/ 
 
 
 2.3 Start the Minikube cluster by running the following command: \
-minikube start \
+minikube start 
 
 
 2.4 Create a new Kubernetes namespace by running the following command: \
-kubectl create namespace spine \
+kubectl create namespace spine 
 
 
 2.5 Apply the IDBPS configuration files to the spine namespace by running the following command: \
-kubectl apply -f ./ -n spine \
+kubectl apply -f ./ -n spine 
 
 
 2.6 Verify that the IDBPS services are running by running the following command: \
@@ -60,8 +60,8 @@ minikube service list \
 
 
 2.7 Access the Kubernetes dashboard to manage the IDBPS deployment by running the following command: \
-minikube dashboard \
+minikube dashboard 
 
 
 2.8 Conclusion: \
-Congratulations! You have successfully set up the IDBPS Kubernetes environment and started up the servers. \
+Congratulations! You have successfully set up the IDBPS Kubernetes environment and started up the servers. 
