@@ -56,7 +56,7 @@ kubectl apply -f ./ -n spine
 
 
 2.6 Verify that the IDBPS services are running by running the following command: \
-minikube service list \
+minikube service list 
 
 
 2.7 Access the Kubernetes dashboard to manage the IDBPS deployment by running the following command: \
