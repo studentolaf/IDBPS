@@ -1,9 +1,9 @@
 # IDBPS Kubernetes Environment Setup Guide \
-This guide is designed to help you set up the IDBPS Kubernetes environment and start up the servers. The IDBPS (Intelligent Distributed Business Processing System) is a platform for processing business transactions using a distributed architecture. Make sure before running the serves to have minkube, docker and kubectl installed. \
+This guide is designed to help you set up the IDBPS Kubernetes environment and start up the servers. The IDBPS (Intelligent Distributed Business Processing System) is a platform for processing business transactions using a distributed architecture. Make sure before running the serves to have minkube, docker and kubectl installed. 
 
 1	Docker/Kubernetes install: \
 sudo apt update \
-sudo apt upgrade \
+sudo apt upgrade 
 
 1.1	Install docker: \
 (Delete old versions) \
