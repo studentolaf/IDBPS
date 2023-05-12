@@ -7,7 +7,7 @@ git clone https://github.com/studentolaf/IDBPS.git
 
 
 1.2 Navigate to the React application directory by running the following command: \
-cd IDBPS/react/v6\ \(working\)/ 
+cd IDBPS/SPINE
 
 
 1.3 Start the Minikube cluster by running the following command: \
